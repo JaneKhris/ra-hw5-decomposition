@@ -1,0 +1,123 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.app {
+  width: 100%;
+}
+
+.upside {
+  width: 100%;
+  text-align: left;
+  display: flex;
+}
+
+.upside-container {
+  margin-left: 20px;
+}
+
+.navi-upside {
+  display: inline;
+  color: blue;
+}
+
+.item-date {
+  display: inline;
+}
+.navi-rates {
+  padding: 5px;
+}
+
+.adv-aside {
+  margin: 0 auto;
+}
+
+.item {
+  margin: 5px;
+}
+
+.item-navi {
+  display: inline;
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container {
+  background-color: cadetblue;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.main-container {
+  display: inline-block;
+}
+
+.navi-main {
+  color: blue;
+}
+
+input {
+  width: 80%;
+}
+
+.item-help {
+  text-align: left;
+}
+
+.adv-movie {
+  background-color: bisque;
+  width: 80%;
+  height: 100px;
+  margin: 5px auto;
+}
+
+.others-container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.section-title {
+  color: blue;
+}
+
+.weather-container,
+.visited-container,
+.map-container,
+.tv-container,
+.live-container {
+  width: 28%;
+  padding: 10px 0;
+}
+
+.weather-widget {
+  background-color: bisque;
+  height: 60px;
+}
+
+.section-title {
+  display: inline;
+}
+
+.item-img {
+  margin-right: 5px;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-comment {
+  color: gray;
+}
